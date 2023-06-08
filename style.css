@@ -1,0 +1,155 @@
+/* CSS Challenge/Lab One */
+/* Selectors used: element selector, class selector, ID selector, attribute selector */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+/* Main section styling */
+main {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 20px;
+    filter: grayscale(100%) brightness(70%);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li:nth-child(odd) {
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Additional styling */
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
+/* Additional styling */
+.wrapper {
+    background: linear-gradient(to bottom, #e6e6fa, #ffffff);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* New background image */
+body {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 20px;
+    filter: grayscale(100%) brightness(70%);
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        max-width: 60%;
+    }
+}
